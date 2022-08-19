@@ -1,6 +1,5 @@
 * {
   cursor: none;
-  background: pink;
 }
 
 #first-empty {
@@ -14,7 +13,9 @@
 #last-empty {
   height: 100vh;
   width: 100vw;
-  background: red;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: url("https://cdn.pixabay.com/photo/2014/08/19/20/04/sports-ground-421921_960_720.jpg");
 }
 .cursor {
   height: 50px;
