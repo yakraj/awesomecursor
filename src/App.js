@@ -39,9 +39,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <div ref={FirstEmt} id="first-empty">
-        <h2>It don't have anything</h2>
-      </div>
+      <div ref={FirstEmt} id="first-empty"></div>
 
       <div ref={BallParent} id="ball-parent">
         <div
@@ -65,9 +63,7 @@ export default function App() {
         </div>
       </div>
 
-      <div ref={lastEmt} id="last-empty">
-        <h2>It don't have anyghing</h2>
-      </div>
+      <div ref={lastEmt} id="last-empty"></div>
     </div>
   );
 }
